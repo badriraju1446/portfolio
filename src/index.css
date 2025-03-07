@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.skill-tree-item {
+  @apply relative pl-8 py-2;
+}
+
+.skill-tree-item::before {
+  content: '';
+  @apply absolute left-0 top-1/2 w-6 h-px bg-purple-900;
+}
+
+.skill-tree-item::after {
+  content: '';
+  @apply absolute left-0 top-0 w-px h-full bg-purple-900;
+}
+
+.skill-tree-item:last-child::after {
+  @apply h-1/2;
+}
+
+.profile-glow {
+  position: relative;
+}
+
+.profile-glow::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  background: linear-gradient(45deg, #311b92, #6200ea, #311b92);
+  border-radius: 50%;
+  filter: blur(15px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.profile-glow:hover::before {
+  opacity: 0.7;
+}
+
+.card {
+  @apply bg-black/50 backdrop-blur-md border border-purple-900/30 rounded-lg p-6 shadow-lg;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, transparent, rgba(49, 27, 146, 0.1), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.card:hover::before {
+  transform: translateX(100%);
+}
