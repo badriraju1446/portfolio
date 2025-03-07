@@ -28,15 +28,10 @@ export default function Contact() {
               <div className="flex items-center justify-center md:justify-end space-x-4">
                 <Mail className="text-purple-400" size={24} />
                 <a href="mailto:contact@example.com" className="hover:text-purple-400 transition-colors">
-                  contact@example.com
+                  bagavanpericharla@gmail.com
                 </a>
               </div>
-              <div className="flex items-center justify-center md:justify-end space-x-4">
-                <Phone className="text-purple-400" size={24} />
-                <a href="tel:+1234567890" className="hover:text-purple-400 transition-colors">
-                  +1 (234) 567-890
-                </a>
-              </div>
+              
             </motion.div>
 
             <motion.div
@@ -45,7 +40,7 @@ export default function Contact() {
               className="flex justify-center md:justify-start space-x-6"
             >
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/pericharla-badri-raju-6924942a5/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-purple-900/30 rounded-full hover:bg-purple-900/50 transition-colors"
@@ -53,7 +48,7 @@ export default function Contact() {
                 <Linkedin size={24} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@learnwithdevil05"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-purple-900/30 rounded-full hover:bg-purple-900/50 transition-colors"

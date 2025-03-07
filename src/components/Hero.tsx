@@ -18,7 +18,7 @@ export default function Hero() {
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+              src="https://i.postimg.cc/wjgMB3GZ/Whats-App-Image-2025-03-07-at-18-59-57-a7aa083b.png"
               alt="Profile"
               className="w-40 h-40 rounded-full border-4 border-purple-900/50 shadow-xl object-cover z-10 relative"
             />

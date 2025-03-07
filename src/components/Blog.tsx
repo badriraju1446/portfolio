@@ -8,7 +8,7 @@ const blogPosts = [
     title: 'The Future of VR in Education',
     excerpt: 'Exploring how virtual reality is transforming traditional learning methods...',
     date: 'March 15, 2024',
-    image: 'https://images.unsplash.com/photo-1592478811213-6153e4ebc07d?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1617802690992-15d93263d3a9?auto=format&fit=crop&w=800&q=80',
   },
   {
     title: 'Getting Started with Unity Development',

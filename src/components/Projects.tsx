@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const projectImages = [
+  'https://i.postimg.cc/mgbrdQdg/Whats-App-Image-2025-03-07-at-18-57-41-9889ed18.jpg',
   'https://images.unsplash.com/photo-1617802690992-15d93263d3a9?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=800&q=80',
